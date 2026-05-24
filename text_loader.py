@@ -16,7 +16,7 @@ prompt = PromptTemplate(
 
 parser = StrOutputParser()
 
-loader = TextLoader("data.txt")
+loader = TextLoader("./asset/data.txt")
 
 docs = loader.load()
 
